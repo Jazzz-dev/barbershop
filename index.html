@@ -168,20 +168,17 @@
 
     <section class="modal modal-login">
         <h2>Личный кабинет</h2>
-        <p>Введите свой логин и пароль.</p>
+        <p class="modal-description">Введите свой логин и пароль.</p>
         <form class="form-login" action="index.html" method="post">
           <p>
-            <label class="visually-hidden" for="login"> Логин
-              <input type="text" name="login" value="" id="login" placeholder="Логин">
-            </label>
-
+            <label class="visually-hidden" for="login"> Логин</label>
+            <input class="login-icon-user" type="text" name="login" value="" id="login" placeholder="Логин">
           </p>
           <p>
-            <label class="visually-hidden" for="password"> Пароль
-              <input type="password" name="password" value="" id="password" placeholder="Пароль">
-            </label>
+            <label class="visually-hidden" for="password"> Пароль</label>
+            <input class="login-icon-password" type="password" name="password" value="" id="password" placeholder="Пароль">
           </p>
-          <p class="login-password-info">
+          <p class="login-help">
             <label for="login-checkbox">
               <input type="checkbox" name="remember" value="" class="visually-hidden">
               <span class="checkbox-indicator"></span>
@@ -191,7 +188,7 @@
           </p>
           <button class="button" type="submit" >Войти</button>
         </form>
-        <button class="close-modal" type="button" >Закрыть</button>
+        <button class="modal-close" type="button" >Закрыть</button>
     </section>
 
     <section class="modal modal-map">
