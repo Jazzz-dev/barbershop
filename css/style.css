@@ -628,3 +628,12 @@ html, body {
 .modal-close::before {
   transform: rotate(-45deg);
 }
+
+.modal-map {
+  top: 50%;
+  left: 50%;
+  width: 766px;
+  height: 561px;
+  margin-top: -280px;
+  margin-left: -390px;
+}
