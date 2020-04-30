@@ -384,6 +384,8 @@ input[type="radio"].visually-hidden {
   margin-bottom: 25px;
 }
 
+
+
 .appointment {
   width: 300px;
 }
@@ -1182,17 +1184,34 @@ input[type="radio"].visually-hidden {
   background-position: 0 0;
   background-repeat: repeat;
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+  z-index: 2;
 }
+
+
+
+.overlay-on {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+
 
 .modal-login {
   top: 120px;
   left: 50%;
-
-  display: none;
-
   width: 300px;
   margin-left: -230px;
   padding: 50px 80px;
+  display: none;
+}
+
+.modal-show {
+  display: block;
 }
 
 .modal-close {
@@ -1245,6 +1264,8 @@ input[type="radio"].visually-hidden {
   margin: 0;
   margin-bottom: 10px;
 }
+
+
 
 .login-form p {
   margin: 0;
@@ -1359,7 +1380,6 @@ input[type="radio"].visually-hidden {
 .modal-map {
   top: 50%;
   left: 50%;
-
   display: none;
   width: 766px;
   height: 561px;
