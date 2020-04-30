@@ -1020,8 +1020,6 @@ input[type="radio"].visually-hidden {
   width: 100%;
 }
 
-
-
 .custom-table-1 td {
   width: 50%;
 }
@@ -1071,7 +1069,7 @@ input[type="radio"].visually-hidden {
   color: #ffffff;
 
   background-color: #212121;
-  background-image: url("../img/pattern-dark.jpg");
+  background-image: url("../img/footer-fone.jpg");
   background-position: 0 0;
   background-repeat: repeat;
 }
@@ -1079,9 +1077,7 @@ input[type="radio"].visually-hidden {
 .inner-page .main-footer {
   margin-top: 45px;
 
-  background-image:
-    linear-gradient(to bottom, black, transparent),
-    url("../img/pattern-dark.jpg");
+  background-image: url("../img/footer-fone.jpg");
   background-size: 10px 40px, auto;
   background-position: 0 0;
   background-repeat: repeat-x, repeat;
