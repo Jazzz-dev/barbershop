@@ -148,39 +148,41 @@
 
     <section class="modal modal-login">
         <h2>Личный кабинет</h2>
-        <p class="modal-description">Введите свой логин и пароль.</p>
-        <form class="form-login" action="index.html" method="post">
-          <p>
-            <label class="visually-hidden" for="login"> Логин</label>
-            <input class="login-icon-user" type="text" name="login" value="" id="login" placeholder="Логин">
-          </p>
-          <p>
-            <label class="visually-hidden" for="password"> Пароль</label>
-            <input class="login-icon-password" type="password" name="password" value="" id="password" placeholder="Пароль">
-          </p>
-          <p class="login-help">
-            <label class="login-checkbox">
-              <input type="checkbox" name="remember"  class="visually-hidden">
-              <span class="checkbox-indicator"></span>
-              Запомните меня
-            </label>
-            <a href="#" class="restore">Я Забыл пароль!</a>
-          </p>
-          <button class="button" type="submit" >Войти</button>
+        <p class="modal-description">Введите пожалуйста свой логин и пароль</p>
+        <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+            <p>
+                <label class="visually-hidden" for="user-login">Логин</label>
+                <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин">
+            </p>
+            <p>
+                <label class="visually-hidden" for="user-password">Пароль</label>
+                <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
+            </p>
+            <p class="login-help">
+                <label class="login-checkbox">
+                    <input type="checkbox" name="remember" class="visually-hidden">
+                    <span class="checkbox-indicator"></span>
+                    Запомните меня
+                </label>
+                <a class="restore" href="#">Я забыл пароль!</a>
+            </p>
+            <button class="button" type="submit">Войти</button>
         </form>
-        <button class="modal-close" type="button" >Закрыть</button>
+        <button class="modal-close" type="button">Закрыть</button>
     </section>
 
     <section class="modal modal-map">
         <h2 class="visually-hidden">Как до нас добраться</h2>
         <p>
-          <img src="../img/map.jpg" alt="Схема проезда" width="780" height="560" alt="Офис компании:
-           Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8
-ТЕЛЕФОН: +7 (495) 666-02-66">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab8f2c939d23faf29713ff8139615ee655039ad0a7f2fa2cb1d7dbac949d6ded6&amp;source=constructor" width="766" height="561" frameborder="0"></iframe>
         </p>
-        <button type="button"  class="modal-close">Закрыть</button>
+        <button class="modal-close" type="button">Закрыть</button>
     </section>
-    <div class="modal-overlay"></div>
+    <div class="overlay-off"></div>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    </script>
+
 </body>
 
 </html>
