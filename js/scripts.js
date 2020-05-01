@@ -2,10 +2,9 @@
 var open = document.querySelector(".login-link");
 var popup = document.querySelector(".modal-login");
 var close = document.querySelector(".modal-close");
-var vv = document.querySelector(".contacts");
-var open2 = vv.querySelector("[href = map.html]");
+var open2 = document.querySelector(".map");
 var popup2 = document.querySelector(".modal-map");
-var close2 = document.querySelector(".modal-close");
+var close2 = document.querySelector(".modal-map .modal-close");
 var overlay = document.querySelector(".overlay-off");
 
 open.addEventListener("click", function (evt) {
